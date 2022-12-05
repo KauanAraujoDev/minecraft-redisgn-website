@@ -1,0 +1,95 @@
+@media screen and (min-width: 360px) {
+    :root {
+        font-size: .189rem;
+    }
+    .wallpaper {
+        height: 360rem;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    :root {
+        font-size: .335rem;
+    }
+    .wallpaper {
+        height: 205rem;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    :root {
+        font-size: .375rem;
+    }
+    .wallpaper {
+        height: 180rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    :root {
+        font-size: .418rem;
+    }
+    .wallpaper {
+        height: 162rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    :root {
+        font-size: .535rem;
+    }
+    .wallpaper {
+        height: 127rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    :root {
+        font-size: .669rem;
+    }
+    .wallpaper {
+        height: 101rem;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    :root {
+        font-size: .712rem;
+    }
+    .wallpaper {
+        height: 95rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    :root {
+        font-size: .75rem;
+    }
+    .wallpaper {
+        height: 90.5rem;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    :root {
+        font-size: .8334rem;
+    }
+    .wallpaper {
+        height: 81.5rem;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    :root {
+        font-size: .875rem;
+    }
+    .wallpaper {
+        height: 77rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    :root {
+        font-size: 1rem;
+    }
+}

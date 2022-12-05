@@ -1,0 +1,169 @@
+.login-board {
+    position: absolute;
+    width: 28.125rem;
+    height: 28.125rem;
+    left: 45.9375rem;
+    top: 19.6875rem;
+
+    background: rgba(38, 38, 38, 0.8);
+    border: .0625rem solid rgba(115, 115, 115, 0.5);
+    backdrop-filter: blur(.1563rem);
+
+    border-radius: .75rem;
+}
+
+.login-board .login-board-logo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    top: 2rem;
+}
+
+.login-board .login-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem;
+    gap: .375rem;
+    
+    position: relative;
+    width: 23.5rem;
+    height: 4.25rem;
+    top: .5rem;
+    left: 1.3rem;
+    
+    margin-top: 2rem;
+}
+
+.login-board .login-input h3 {
+    font-family: 'Kufam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}   
+
+.login-board .login-input input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: .4375rem .875rem;
+    gap: .5rem;
+
+    width: 23.5rem;
+    height: 2.375rem;
+    
+    background: #262626;
+    border: .0625rem solid #414141;
+    backdrop-filter: blur(.3125rem);
+    border-radius: .1875rem;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #c9c1c1;
+}
+
+.login-board .login-input input::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.5rem;
+
+    display: flex;
+    align-items: center;
+
+    color: #BAACAC;
+}
+
+.login-board .login-remember-me {
+    display: flex;
+    position: relative;
+    height: 1.5rem;
+
+    top: 2.5rem;
+    left: 1.3rem;
+}
+.login-board .login-remember-me input {
+    box-sizing: border-box;
+    background: rgba(38, 38, 38, 0.8);
+    border: .0625rem solid rgba(115, 115, 115, 0.5);
+    backdrop-filter: blur(.3125rem);
+
+    border-radius: .1875rem;
+}
+
+.login-board .login-remember-me .checkboxLabel {
+    margin-left: .8rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.5rem;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.login-board .login-button-confirm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 23.5rem;
+    height: 3rem;
+    left: 2.2rem;
+    top: 4rem;
+    
+    background: linear-gradient(90.89deg, #22AE75 0%, #00874F 52.36%);
+    box-shadow: 0rem 0rem 0rem .5rem rgba(255, 255, 255, 0.05), 0rem .125rem 0rem #FFFFFF, inset 0rem .125rem 0rem rgba(255, 255, 255, 0.4);
+    border-radius: .375rem;
+}
+
+.login-board .login-button-confirm h3 {
+    position: relative;
+    top: 0.2rem;
+
+    font-family: 'Kufam';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.login-board .login-forgot-password h5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 6rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #33E29A;
+}

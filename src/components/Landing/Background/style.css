@@ -1,0 +1,23 @@
+.wallpaper {
+    display: block;
+    width: 100%;
+    height: 67.5rem;
+}
+
+.gradientUp {
+    position: absolute;
+    width: 100%;
+    height: 25rem;
+    top: 0rem;
+    background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0.7) 50%, rgba(18, 18, 18, 0) 100%);
+    transform: rotate(-180deg);
+}
+
+.gradientDown {
+    position: absolute;
+    width: 100%;
+    height: 22.8125rem;
+    bottom: 0rem;
+    background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0.7) 50%, rgba(18, 18, 18, 0) 100%);
+}
+

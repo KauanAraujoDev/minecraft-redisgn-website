@@ -1,0 +1,128 @@
+@media screen and (min-width: 360px) {
+    .logo {
+        width: 5rem;
+    }
+    .navbar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .logo {
+        width: 3.8rem;
+    }
+    .navbar {
+        display: flex;
+    }
+    .navbar .alterscreen h3 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .logo {
+        width: 3rem;
+    }
+    .navbar {
+        display: flex;
+    }
+    .navbar .alterscreen h3 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .logo {
+        width: 2rem;
+    }
+    .navbar {
+        display: flex;
+    }
+    .navbar .alterscreen h3 {
+        font-size: 1.9rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .logo {
+        width: 2rem;
+    }
+    .navbar {
+        display: flex;
+    }
+    .navbar .alterscreen h3 {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .logo {
+        width: 2rem;
+    }
+    .navbar {
+        display: flex;
+    }
+    .navbar .alterscreen h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .logo {
+        width: 2rem;
+    }
+    .navbar {
+        display: flex;
+    }
+    .navbar .alterscreen h3 {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .logo {
+        width: 2rem;
+    }
+    .navbar {
+        display: flex;
+    }
+    .navbar .alterscreen h3 {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .logo {
+        width: 2rem;
+    }
+    .navbar {
+        display: flex;
+    }
+    .navbar .alterscreen h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    .logo {
+        width: 2rem;
+    }
+    .navbar {
+        display: flex;
+    }
+    .navbar .alterscreen h3 {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .logo {
+        width: 2rem;
+    }
+    .navbar {
+        display: flex;
+    }
+    .navbar .alterscreen h3 {
+        font-size: 1rem;
+    }
+}

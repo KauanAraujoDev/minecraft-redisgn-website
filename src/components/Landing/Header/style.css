@@ -1,0 +1,79 @@
+header {
+    position: absolute;
+    width: 120rem;
+    height: 10rem;
+    top: 0rem;
+}
+
+.webName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+    padding: 0 1rem;
+    top: 3rem;
+}
+
+.webName h2 {
+    margin-left: .5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3rem;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 4rem;
+}
+
+.navbar .alterscreen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    
+    border-radius: .375rem;
+    transition: 0.5s;
+    
+    margin-left: 1.5rem;
+
+    padding: 1rem 1.5rem;
+    color: #FFFFFF;
+}
+
+.navbar .alterscreen h3 {
+    font-family: 'Kufam';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: .9375rem;
+
+    margin-top: .4rem;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: .0625rem;
+    text-transform: uppercase;
+}
+
+.navbar .alterscreen:hover {
+    background: rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(.1563rem);
+    color: #33E29A;
+}
