@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import Landing from './pages/Landing/Landing'
+import Landing from './pages/Landing'
 
 function App() {
   return (
