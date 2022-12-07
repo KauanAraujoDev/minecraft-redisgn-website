@@ -116,22 +116,6 @@
     color: #FFFFFF;
 }
 
-.login-board .login-button-confirm {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    width: 23.5rem;
-    height: 3rem;
-    left: 2.2rem;
-    top: 4rem;
-    
-    background: linear-gradient(90.89deg, #22AE75 0%, #00874F 52.36%);
-    box-shadow: 0rem 0rem 0rem .5rem rgba(255, 255, 255, 0.05), 0rem .125rem 0rem #FFFFFF, inset 0rem .125rem 0rem rgba(255, 255, 255, 0.4);
-    border-radius: .375rem;
-}
-
 .login-board .login-button-confirm h3 {
     position: relative;
     top: 0.2rem;
@@ -145,8 +129,6 @@
     display: flex;
     align-items: center;
     text-align: center;
-    
-    color: #FFFFFF;
 }
 
 .login-board .login-forgot-password h5 {
